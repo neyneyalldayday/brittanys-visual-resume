@@ -8,11 +8,17 @@ const Footer = () => {
         </section>
         <section className='footer-socials'>
             <h4>Social Media</h4>
-            <ul className='icon-container'>
-                <li>instagram</li>
-                <li>facebook</li>
-                <li>you tube</li>
-            </ul>
+            <div className='icon-container'>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+        <i className="fa fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+        <i className="fa fa-facebook"></i>
+      </a>
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+        <i className="fa fa-youtube"></i>
+      </a>
+            </div>
         </section>
       
     </div>
